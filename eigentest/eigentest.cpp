@@ -18,6 +18,7 @@
 #include <cuda_runtime.h>
 #include <cusolverDn.h>
 
+#define ARMA_ALLOW_FAKE_GCC
 #include <armadillo>
 
 #include "magma_v2.h"
